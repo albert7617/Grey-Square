@@ -1,0 +1,99 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  height: 62px;
+  padding: 35px;
+  background-color: rgba(255, 255, 255, .6);
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header span:first-child {
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+header span:last-child {
+  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.covor {
+  position: relative;
+  height: 120vh;
+  width: 100vw;
+}
+
+.square {
+  position: absolute;
+  z-index: 1;
+}
+
+.square-1 {
+  background-color: #7B898D;
+  height: 110vh;
+  width: 40vw;
+  top: 0;
+  left: 0;
+}
+
+.square-2 {
+  background-color: #0f080282;
+  height: 73vh;
+  width: 20vw;
+  top: 30vh;
+  right: 0;
+}
+
+.square-3 {
+  background-color: #0f080282;
+  height: 30vh;
+  width: 80vw;
+  top: 70vh;
+  right: 0;
+}
+
+.square-4 {
+  background-color: #0f080282;
+  height: 40vh;
+  width: 40vw;
+  top: 80vh;
+  right: 0;
+}
+
+.square-5 {
+  background-color: #B3BCBE5F;
+  height: 105vh;
+  width: 65vw;
+  top: 0;
+  right: 0;
+}
+
+.square-6 {
+
+}
+
+.square-7 {
+
+}
+
+.square-8 {
+
+}
+
+.title {
+  position: absolute;
+  top: calc(70vh - 73px);
+  right: 25vw;
+  z-index: 5;
+}
